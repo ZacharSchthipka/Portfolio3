@@ -1,0 +1,646 @@
+*{
+    list-style-type: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+display:flex;
+justify-content: space-around;
+width: 450px;
+padding-top: 14px;
+}
+.list-item{
+    margin-left: 20px;
+}
+.list-item-link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.cookies-agreement .button7 {
+    margin-left: auto;
+  }
+  .button7 {
+    font-size: 12px;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 2px;
+  }
+.cookies-agreement {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px 20px;
+  }
+  
+  .cookies-agreement .button {
+    margin-left: auto;
+  }
+  
+  .cookies-agreement-closed {
+    display: none;
+  }
+.logo{
+ font-family: 'Work Sans', sans-serif;
+font-weight:bold;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #1e1e1e;
+font-size: 28px;
+line-height: 150%;
+}
+.media{
+display:flex;
+justify-content: space-around;
+width: 250px;
+padding-top: 12px;
+}
+.header-nav{
+    width: 780px;
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    width: 100%;
+    display: flex;
+    position: relative;
+    background: white;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+.black{
+    width: 200px;
+    height: 60px;
+    background: #000;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.hello{
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px; 
+       
+}
+.information{
+    padding-left: 100px;
+ width: 549px;
+height: 240px;
+font-family: 'Eczar';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 125%;
+/* or 80px */
+
+letter-spacing: 0.02em;
+
+color: #151413;
+
+}
+.button{
+    width: 200px;
+    height: 60px;
+    background: #000;
+    text-align: center;
+    line-height: 60px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    box-sizing: border-box;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 16px; 
+}
+a{
+    text-decoration: none;
+}
+.button2{
+    width: 200px;
+    height: 60px;
+    border:solid 3px  #000;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;   
+}
+.contact-me{
+    color: aliceblue;
+}
+.contact-me2{
+    color:#4D5566;
+}
+.links{
+    padding-left: 75px;
+    padding-top: 100px;
+    width:500px;
+    display: flex;
+    justify-content: space-around;
+}
+.arrow{
+    position: relative;
+    top: 6px;
+
+}
+.me{
+    width: 500px;
+    height: 600px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius:10px;
+    object-fit: contain;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.tablet{
+        width: 1300px;
+        height: 1699px;
+        margin:0 auto;
+        background: rgba(0, 0, 0, 0.93);
+}
+.subtitle{
+    width: 549px;
+    height: 240px;
+    font-size: 60px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+   color: #ffffff;
+    margin-left:100px;
+}
+.button3{
+    width: 250px;
+    height: 50px;
+    
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    box-sizing: border-box;
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 16px;    
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.header-tablet{
+  width: 1000px;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.btn{
+padding-bottom: 150px;
+}
+
+.flex-title{
+    width: 400px;
+}
+.link-my-works{
+    text-decoration: none;
+    color: black;
+}
+.element-tablet-text{
+    font-family: 'Work Sans';
+}
+.tablet-text{
+   color: #594F43;
+}
+.element-tablet1{
+width: 1000px;
+background: white;
+height: 254px;
+border-radius: 15px;
+margin: 0 auto;
+margin-top: 40px;
+box-sizing: border-box;
+padding-left: 40px;
+display: flex;
+justify-content: space-between;
+
+}
+.images1{
+    width: 450px;
+    height: 254px;
+   border-top-right-radius: 15px; 
+   border-bottom-right-radius: 15px; 
+   
+
+}
+.work-images{
+    margin-bottom: 30px;
+}
+.ecogology{
+    font-size: 60px;
+    position: absolute;
+    left:850px;
+    color: white;
+}
+.EWEWQ{
+    color: #058908;
+}
+.element-tablet2{
+    width: 1000px;
+    background: white;
+    height: 254px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 40px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    .element-tablet3{
+        width: 1000px;
+        background: white;
+        height: 254px;
+        border-radius: 15px;
+        margin: 0 auto;
+        margin-top: 40px;
+        box-sizing: border-box;
+        padding-left: 40px;
+        display: flex;
+        justify-content: space-between;
+        
+        }
+        .element-tablet4{
+            width: 1000px;
+            background: white;
+            height: 254px;
+            border-radius: 15px;
+            margin: 0 auto;
+            margin-top: 40px;
+            box-sizing: border-box;
+            padding-left: 40px;
+            display: flex;
+            justify-content: space-between;
+            
+            }
+            .element-tablet5{
+                width: 1000px;
+                background: white;
+                height: 254px;
+                border-radius: 15px;
+                margin: 0 auto;
+                margin-top: 40px;
+                box-sizing: border-box;
+                padding-left: 40px;
+                display: flex;
+                justify-content: space-between;
+                
+                }
+                .carusel-main{    
+                    width: 80%;
+                    margin:0 auto;    
+                    overflow: hidden;
+                    padding: 20px;
+                }
+                .slide{
+                    display: flex;
+                    align-items: center;
+                    }
+                .slide div{
+                    margin-right: 30px;}
+                .btn{    outline: none;
+                    border: none;    
+                    cursor: pointer;
+                    background: none;
+                }
+                .transformAnimation{
+                    transition: .4s all ease-in-out;
+                }
+                .carusel{    display: flex;
+                    padding-top: 200px;
+                    height: 500px;
+                }
+        
+                .circle1{    
+                    width: 300px;
+                    height: 300px;
+                    display: flex; 
+                    justify-content:center;
+                    border-radius: 50%;   
+                    column-gap: 50px;   
+                    font-family: 'Hind Siliguri', sans-serif;
+                    font-size: 16px;
+                }
+                .circle2{    
+                    width: 300px;
+                    height: 300px;
+                    display: flex; 
+                    justify-content:center;
+                    border-radius: 50%;   
+                    column-gap: 50px;   
+                    font-family: 'Hind Siliguri', sans-serif;
+                    font-size: 16px;
+                }
+
+                .circle3{    
+                    width: 300px;
+                    height: 300px;
+                    display: flex; 
+                    justify-content:center;
+                    border-radius: 50%;   
+                    column-gap: 50px;   
+                    font-family: 'Hind Siliguri', sans-serif;
+                    font-size: 16px;
+                }
+
+
+                .tushka{   
+                     width: 100%;
+                    display: grid;    
+                    grid-template-columns: 300px 550px;
+                    column-gap: 50px;    
+                    font-family: 'Hind Siliguri', sans-serif;
+                    font-size: 16px;}
+                .chopuk{
+                    width: 100%;    
+                    display: grid;
+                    grid-template-columns: 300px 550px;    
+                    column-gap: 20px;
+                    column-gap: 50px;    
+                    font-family: 'Hind Siliguri', sans-serif;
+                    font-size: 16px;}
+                    
+                    .Olesia {
+                        width: 100%;    
+                        display: grid;
+                        grid-template-columns: 300px 550px;    
+                        column-gap: 20px;
+                        column-gap: 50px;    
+                        font-family: 'Hind Siliguri', sans-serif;
+                        font-size: 16px;}
+                        .arrow{
+                            transform: rotate(180deg);
+                        }
+                       .title-teacher{
+                        width: 100%;
+                        height: 50px;
+                        display: flex;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        justify-content: center;
+                        
+                       }
+                        .my-teacher{
+                            margin:0 auto;
+                            font-size: 60px;
+                            padding-top: 150px;
+                        }
+                        .about-me-title{
+                             color: white;
+                            padding-left: 20px;
+                            line-height: 60px;
+                            text-align: center;
+                            font-family: 'Hind Siliguri', sans-serif;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 40px; 
+                        }
+                        .about-me{
+                            width: 1310px;
+                            height: 700px;
+                            margin-right: 500px;
+                            background: #000;  
+                        }
+                        .text-about-me{
+                        color: white;
+                        width: 625px;
+                        display: block;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        padding-left: 30px;
+                        line-height: 20px;
+                        }
+                        .about-me-flex{
+                            display: flex;
+                            justify-content: space-between;
+                            width: 1300px;
+                            height: 700px;
+                            border: 2px solid white;
+                            border-radius: 5px;
+                        }
+                        .image-me{
+                           width: 659px;
+                           height: 699px;
+                           object-fit: contain;
+                            background-position: center;
+                        }
+                        
+                        .input-head{
+                            font-weight: bold;
+                            font-size: 20px;
+                          
+                             
+                          }
+                          .big-width{
+                            width: 680px;
+                            height: 100px;
+                            padding: 10px;
+                            font-size: 20px;
+                            background: rgba(196, 196, 196, 0.3);
+                            border-radius: 30px;
+                            font-weight: bold; 
+                            border: none; 
+                            border-radius: 5px;
+                            
+                          }
+                          .big-input-baza{
+                            grid-row:3/4 ;
+                          }
+                        
+                          .select-baza{
+                            grid-row: 5/6;
+                          }
+                        
+                          .tuda{
+                            color: black;
+                            border-radius: 50%;
+                          }
+                            
+                          .footer-form{
+                            padding-top: 75px;
+                            padding-bottom: 100px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            width: 730px;
+                            display: grid;
+                            grid-template-columns: 330px 330px;
+                            grid-template-rows: 80px 80px 80px 50px 50px; 
+                            gap: 20px;
+                          }
+                          .end{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            padding-top: 15px;
+                          }
+                          .just-text{
+                            height: 300px;
+                            width: 100%;
+                            
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                          }
+                          .same-width{
+                            width: 330px;
+                            height: 45px;
+                            padding: 10px;
+                            font-size: 20px;
+                            background: rgba(196, 196, 196, 0.3);
+                            font-weight: bold;
+                            border: none; 
+                            border-radius: 50px;    
+                            color: black;
+                          }
+
+                          .secondd{
+                            margin-left: 15px;
+                          }
+                          .click{
+                            width: 100px;
+                          
+                            height: 35px;
+                            color: #E91145;
+                            font-weight: bold;
+                            border: 2px solid #E91145;
+                            border-radius: 50px;
+                          }
+                         
+                         
+                        .sliders{
+                            width: 100%;
+                            height: 50px;   
+                            display: flex;
+                            justify-content: space-between;
+                        
+                        }
+            
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 90deg;
+    inherits: true;
+  }
+  
+  @property --gradX {
+    syntax: '<percentage>';
+    initial-value: 50%;
+    inherits: true;
+  }
+  
+  @property --gradY {
+    syntax: '<percentage>';
+    initial-value: 0%;
+    inherits: true;
+  }
+  
+
+  
+  :root {
+      --d: 2500ms;
+      --angle: 90deg;
+      --gradX: 100%;
+      --gradY: 50%;
+      --c1: rgb(253, 253, 253);
+      --c2: rgba(244, 253, 255, 0.1);
+  }
+  
+  .nnn{
+      
+      margin: max(1rem, 3vw);
+      border: 0.35rem solid;
+      padding: 3vw;
+      box-sizing: border-box;
+      border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+      animation: borderRotate var(--d) linear infinite forwards;
+  }
+  
+  
+  
+  @keyframes borderRotate {
+      100% {
+          --angle: 420deg;
+      }
+  }
+  
+  @keyframes borderRadial {
+      20% {
+          --gradX: 100%;
+          --gradY: 50%;
+      }
+      40% {
+          --gradX: 100%;
+          --gradY: 100%;
+      }
+      60% {
+          --gradX: 50%;
+          --gradY: 100%;
+      }
+      80% {
+          --gradX: 0%;
+          --gradY: 50%;
+      }
+      100% {
+          --gradX: 50%;
+          --gradY: 0%;
+      }
+  }
+  #buttn {
+    display: inline-block;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #buttn::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #buttn:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #buttn:active {
+    background-color: #555;
+  }
+  #buttn.show {
+    opacity: 1;
+    visibility: visible;
+  }
+ .safe-ukraine-title{
+    font-size: 60px;
+    font-family: 'Hind Siliguri', sans-serif;
+ }
